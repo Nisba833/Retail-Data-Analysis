@@ -33,7 +33,7 @@ SQL  – Data cleaning and analysis
 Excel – Pre-processing and validation
 GitHub – Version control and project sharing
 
-
+## Querise
 create database Retail_DataAnalysis
 use Retail_DataAnalysis
 
