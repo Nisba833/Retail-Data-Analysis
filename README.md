@@ -17,21 +17,21 @@ This project focuses on analyzing retail data using SQL to derive valuable insig
 
 ### Transactions.csv
 Customer purchase records.
- Fields: transaction_id, cust_id, tran_date, prod_subcat_code, prod_cat_code, Qty, Rate, Tax, total_amt, Store_type.
+- Fields: transaction_id, cust_id, tran_date, prod_subcat_code, prod_cat_code, Qty, Rate, Tax, total_amt, Store_type.
 
 ### Customer.csv
 Demographic details of customers.
-Fields: customer_Id, DOB, Gender, city_code, Date_Of_Registration.
+- Fields: customer_Id, DOB, Gender, city_code, Date_Of_Registration.
 
 ### prod_cat_info.csv
 Mapping of product categories and subcategories.
-Fields: prod_cat_code, prod_cat, prod_sub_cat_code, prod_subcat.
+- Fields: prod_cat_code, prod_cat, prod_sub_cat_code, prod_subcat.
 
 ## Tools Used:
 
-SQL  – Data cleaning and analysis
-Excel – Pre-processing and validation
-GitHub – Version control and project sharing
+* SQL  – Data cleaning and analysis
+* Excel – Pre-processing and validation
+* GitHub – Version control and project sharing
 
 
 ## Key Insights:
