@@ -7,11 +7,11 @@ This project focuses on analyzing retail data using SQL to derive valuable insig
 
 ## Objectives:
 
-Explore and clean retail datasets for analysis.
-Understand customer demographics and segmentation.
-Identify high-performing products and categories.
-Analyze sales patterns across time and store types.
-Provide insights to support decision-making in customer retention and revenue growth.
+* Explore and clean retail datasets for analysis.
+* Understand customer demographics and segmentation.
+* Identify high-performing products and categories.
+* Analyze sales patterns across time and store types.
+* Provide insights to support decision-making in customer retention and revenue growth.
 
 ## Dataset Details:
 
@@ -36,22 +36,25 @@ GitHub – Version control and project sharing
 
 ## Key Insights:
 
-Customers in the 25–40 age group contributed the highest sales.
-Electronics and Clothing were the most profitable product categories.
-Festive months showed a significant spike in sales volume.
-Female customers showed slightly higher average spending than male customers.
-Store_Type = Flagship Store generated the highest revenue compared to other store types.
+* Customers in the 25–40 age group contributed the highest sales.
+* Electronics and Clothing were the most profitable product categories.
+* Festive months showed a significant spike in sales volume.
+* Female customers showed slightly higher average spending than male customers.
+* Store_Type = Flagship Store generated the highest revenue compared to other store types.
 
 
 ## Findings / Report:
 
-Seasonal sales peaks indicate strong opportunities for targeted promotions.
-Customer segmentation by age and gender can help in personalized marketing.
-High-performing categories suggest where to focus inventory and campaigns.
-Flagship stores outperform, indicating the importance of premium outlets.
+* Seasonal sales peaks indicate strong opportunities for targeted promotions.
+* Customer segmentation by age and gender can help in personalized marketing.
+* High-performing categories suggest where to focus inventory and campaigns.
+* Flagship stores outperform, indicating the importance of premium outlets.
 
-## Conclusion:
+## Conclusion
 
-This project highlights how SQL can be effectively used to analyze retail data and generate actionable business insights. By exploring customer behavior, product performance, and sales patterns, businesses can:
-Optimize product offerings,Improve customer targeting, and Strengthen sales strategies.
+This project highlights how SQL can be effectively used to analyze retail data and generate actionable business insights.
+* Businesses can use these insights to:
+* Optimize product offerings
+* Improve customer targeting
+* Strengthen sales strategies
 The analysis demonstrates the end-to-end process of data exploration, cleaning, and insight generation using SQL.
