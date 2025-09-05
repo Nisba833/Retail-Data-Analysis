@@ -1,11 +1,11 @@
 # Retail-Data-Analysis
 SQL-based retail data analysis project using transaction, customer, and product datasets to explore customer behavior, sales trends, and product performance for actionable business insights.
 
-Project Overview:
+##Project Overview:
 
 This project focuses on analyzing retail data using SQL to derive valuable insights into customer demographics, sales performance, and product trends. By working with transactional, customer, and product category datasets, the project demonstrates how raw data can be transformed into meaningful business intelligence.
 
-Objectives:
+##Objectives:
 
 Explore and clean retail datasets for analysis.
 Understand customer demographics and segmentation.
@@ -13,21 +13,21 @@ Identify high-performing products and categories.
 Analyze sales patterns across time and store types.
 Provide insights to support decision-making in customer retention and revenue growth.
 
-Dataset Details:
+##Dataset Details:
 
-Transactions.csv
+###Transactions.csv
 Customer purchase records.
  Fields: transaction_id, cust_id, tran_date, prod_subcat_code, prod_cat_code, Qty, Rate, Tax, total_amt, Store_type.
 
-Customer.csv
+###Customer.csv
 Demographic details of customers.
 Fields: customer_Id, DOB, Gender, city_code, Date_Of_Registration.
 
-prod_cat_info.csv
+###prod_cat_info.csv
 Mapping of product categories and subcategories.
 Fields: prod_cat_code, prod_cat, prod_sub_cat_code, prod_subcat.
 
-Tools Used:
+##Tools Used:
 
 SQL  – Data cleaning and analysis
 Excel – Pre-processing and validation
@@ -40,9 +40,9 @@ use Retail_DataAnalysis
 -- Q1. What is the total number of rows in each of the 3 tables in the database?
 
 SELECT 'Customer' AS TableName, COUNT(*) AS TotalRows FROM Customer
-UNION ALL
+     UNION ALL
 SELECT 'Transactions', COUNT(*) FROM Transactions
-UNION ALL
+      UNION ALL
 SELECT 'Product Category', COUNT(*) FROM prod_cat_info;
 
 
@@ -174,7 +174,7 @@ GROUP BY p.prod_subcat
 ORDER BY Revenue DESC
 LIMIT 5;
 
-Key Insights:
+##Key Insights:
 
 Customers in the 25–40 age group contributed the highest sales.
 Electronics and Clothing were the most profitable product categories.
@@ -183,14 +183,14 @@ Female customers showed slightly higher average spending than male customers.
 Store_Type = Flagship Store generated the highest revenue compared to other store types.
 
 
-Findings / Report:
+##Findings / Report:
 
 Seasonal sales peaks indicate strong opportunities for targeted promotions.
 Customer segmentation by age and gender can help in personalized marketing.
 High-performing categories suggest where to focus inventory and campaigns.
 Flagship stores outperform, indicating the importance of premium outlets.
 
-Conclusion:
+##Conclusion:
 
 This project highlights how SQL can be effectively used to analyze retail data and generate actionable business insights. By exploring customer behavior, product performance, and sales patterns, businesses can:
 Optimize product offerings,Improve customer targeting, and Strengthen sales strategies.
